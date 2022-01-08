@@ -1,0 +1,17 @@
+version: '3.2'
+
+services:
+  ciscovpn:
+    image: orgdeepinthink/ciscovpn:latest
+    hostname: ciscovpn
+    restart: always
+    privileged: true
+    env_file:
+      - openconnect/.env
+    volumes:
+      - type: bind
+        source: ./3proxy/3proxy.cfg
+        target: /etc/3proxy/3proxy.cfg
+    ports:
+      - "23333:23333"
+      - "1080:1080"
