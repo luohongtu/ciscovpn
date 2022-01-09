@@ -1,6 +1,6 @@
 # ciscovpn
 
-使用思科 vpn 和 3proxy 自用科学上网解决方案.
+使用思科 vpn 和 3proxy 自用科学上网解决方案。
 
 ```
   git clone https://github.com/tingyanshen/ciscovpn ciscovpn
