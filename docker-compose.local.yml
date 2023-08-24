@@ -2,5 +2,6 @@ version: '3.2'
 
 services:
   ciscovpn:
+    image: tingyanshen/ciscovpn:latest
     build:
       context: .

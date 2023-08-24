@@ -3,7 +3,6 @@ version: '3.2'
 services:
   ciscovpn:
     image: tingyanshen/ciscovpn:latest
-    hostname: ciscovpn
     restart: always
     privileged: true
     env_file:
