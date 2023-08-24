@@ -2,7 +2,7 @@ version: '3.2'
 
 services:
   ciscovpn:
-    image: orgdeepinthink/ciscovpn:latest
+    image: tingyanshen/ciscovpn:latest
     hostname: ciscovpn
     restart: always
     privileged: true

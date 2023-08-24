@@ -1,6 +1,6 @@
-FROM docker.io/alpine:3.13
+FROM docker.io/alpine:3.18
 
-LABEL maintainer = '石头<tingyan.shen@gmail.com>'
+LABEL maintainer = 'Tingyan Shen<tingyan.shen@gmail.com>'
 
 ARG RELEASE
 

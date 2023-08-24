@@ -16,6 +16,6 @@ if [ -z "${OPENCONNECT_PASSWD}" ]; then
   exit 3
 fi
 
-OPENCONNECT_ARGS="--background --user=${OPENCONNECT_USER} --passwd-on-stdin ${OPENCONNECT_URL}"
+OPENCONNECT_ARGS="${OPENCONNECT_OPT} --background --user=${OPENCONNECT_USER} --passwd-on-stdin ${OPENCONNECT_URL}"
 echo "${OPENCONNECT_PASSWD}"  | openconnect ${OPENCONNECT_ARGS}
 3proxy /etc/3proxy/3proxy.cfg
